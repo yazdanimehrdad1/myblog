@@ -4524,6 +4524,13 @@
     "signal-exit" "^3.0.2"
     "strip-final-newline" "^2.0.0"
 
+"executioner@^2.0.1":
+  "integrity" "sha1-rdMo4DvEXdWY81j7tSn8C+Dsb80="
+  "resolved" "https://registry.npmjs.org/executioner/-/executioner-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "mixly" "^1.0.0"
+
 "exif-component@^1.0.1":
   "integrity" "sha1-kM1ZJ+pJ6eXdh3cxwDYDIuP75is="
   "resolved" "https://registry.npmjs.org/exif-component/-/exif-component-1.0.1.tgz"
@@ -5011,6 +5018,11 @@
   dependencies:
     "readable-stream" "1.1.x"
     "xregexp" "2.0.0"
+
+"fulcon@^1.0.1":
+  "integrity" "sha1-ik39pMc/zZzGKnnVBFw5K0VUcyA="
+  "resolved" "https://registry.npmjs.org/fulcon/-/fulcon-1.0.2.tgz"
+  "version" "1.0.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -5576,6 +5588,13 @@
   "integrity" "sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4="
   "resolved" "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
   "version" "2.0.3"
+
+"install-peers@^1.0.3":
+  "integrity" "sha512-MAlSHlrn4p+g3fhx8ZVxQZXX+MkeinKLu/ThfAmrVnN5c2L8Vof7myb0UsgowJEiGcFNHYnTvo37r3uap5asYA=="
+  "resolved" "https://registry.npmjs.org/install-peers/-/install-peers-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "executioner" "^2.0.1"
 
 "internal-slot@^1.0.3":
   "integrity" "sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA=="
@@ -6771,6 +6790,13 @@
   dependencies:
     "for-in" "^1.0.2"
     "is-extendable" "^1.0.1"
+
+"mixly@^1.0.0":
+  "integrity" "sha1-m1ouH2Pm37oNMOZ5f/rmKrHcJO8="
+  "resolved" "https://registry.npmjs.org/mixly/-/mixly-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "fulcon" "^1.0.1"
 
 "mkdirp@^0.5.0", "mkdirp@^0.5.1", "mkdirp@~0.5.0", "mkdirp@~0.5.1":
   "integrity" "sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ=="
